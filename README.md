@@ -1,1 +1,198 @@
 # Real-Estate-Website
+diff
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Monroe Realty Group</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f5f7fa;
+      color: #1f2933;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #0f2a44;
+      padding: 20px 40px;
+      color: white;
+      position: sticky;
+      top: 0;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      background-image: url("https://images.unsplash.com/photo-1560185127-6ed189bf02f4");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 100px 40px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .section {
+      background: white;
+      padding: 60px 40px;
+      margin-bottom: 20px;
+    }
+
+    .section h2 {
+      color: #0f2a44;
+      margin-bottom: 20px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #f5f7fa;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 6px;
+      margin-bottom: 10px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+
+    .contact-form button {
+      background-color: #0f2a44;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: #0f2a44;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <nav>
+    <div><strong>Monroe Realty Group</strong></div>
+    <div>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#properties">Properties</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <h1>Monroe Realty Group</h1>
+  <p>Your trusted Southern California real estate partner</p>
+</section>
+
+<section id="about" class="section">
+  <h2>About Us</h2>
+  <p>
+    Monroe Realty Group was founded to bring honesty, strategy,
+    and professionalism to real estate. We help buyers and sellers
+    make informed decisions using real market data.
+  </p>
+  <ul>
+    <li>Licensed California Real Estate Agent</li>
+    <li>50+ successful transactions</li>
+    <li>98% list-to-sale price ratio</li>
+  </ul>
+</section>
+
+<section id="properties" class="section">
+  <h2>Available & Sold Properties</h2>
+
+  <div class="cards">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be" alt="Home">
+      <h3>Downey, CA</h3>
+      <p>4 Bed / 3 Bath – $1,400,000</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="Home">
+      <h3>Long Beach, CA</h3>
+      <p>3 Bed / 2 Bath – $899,000</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6" alt="Home">
+      <h3>Recently Sold</h3>
+      <p>Sold in 18 days – Above asking price</p>
+    </div>
+  </div>
+</section>
+
+<section id="reviews" class="section">
+  <h2>Satisfied Customers</h2>
+  <p>⭐⭐⭐⭐⭐ “The process was smooth and stress-free.” – J. Ramirez</p>
+  <p>⭐⭐⭐⭐⭐ “Our home sold quickly and over asking.” – L. Chen</p>
+  <p>⭐⭐⭐⭐⭐ “Professional and honest service.” – S. Alvarez</p>
+</section>
+
+<section id="contact" class="section">
+  <h2>Contact Us</h2>
+
+  <p><strong>Phone:</strong> (555) 123-4567</p>
+  <p><strong>Email:</strong> caleb@monroerealtygroup.com</p>
+
+  <form class="contact-form">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea rows="4" placeholder="Your Message"></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2025 Monroe Realty Group | Real Estate Principles – Mr. Castro</p>
+</footer>
+
+</body>
+</html>
